@@ -9,7 +9,7 @@ class Bird:
         self.y = y
         self.velocity = velocity
         self.color = color
-        self.jump_velocity = 6
+        self.jump_velocity = 7
         self.hitbox=pygame.Rect(self.x-10,self.y-10,20,20)#20 is for the diameter of the bird circle
 
     def jump(self):
@@ -80,3 +80,4 @@ while True:
     clock.tick(50)
 
     count+=1
+
